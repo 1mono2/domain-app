@@ -1,0 +1,30 @@
+{
+  "name": "domain-app",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "test": "vitest run --coverage",
+    "dedenne": "vitest"
+  },
+  "keywords": [],
+  "author": "Takahiro Morimoto",
+  "license": "MIT",
+  "description": "Domain Driven Design App",
+  "devDependencies": {
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^22.9.0",
+    "@vitest/coverage-v8": "^2.1.5",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nanoid": "^5.0.8"
+  }
+}
